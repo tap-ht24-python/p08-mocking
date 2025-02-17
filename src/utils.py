@@ -1,6 +1,8 @@
 
-def calculate_interest():
-    pass
+def calculate_interest(account):
+    old_balance = account.balance
+    interest = 0.05 * old_balance
+    account.deposit(interest)
 
 
 # Dessa krav gäller för calculate_interest:
